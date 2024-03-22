@@ -1,8 +1,9 @@
 --extra-index-url https://download.pytorch.org/whl
-torch==1.9.0+cu111
-torchvision==0.10.0+cu111
-torchaudio==0.9.0
--f https://dl.fbaipublicfiles.com/detectron2/wheels/cu111/torch1.9/index.html
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+torch
+torchvision
+torchaudio
 detectron2==0.6
 transformers
 timm==0.4.12
